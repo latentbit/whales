@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Elms Sans';
+    src: url('ElmsSans-Thin.woff2') format('woff2'),
+        url('ElmsSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
