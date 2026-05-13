@@ -1,8 +1,38 @@
-
+@font-face {
+    font-family: 'Elms Sans';
+    src: url('fonts/ElmsSans-Thin.woff2') format('woff2'),
+        url('fonts/ElmsSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
 
 *, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Elms Sans', sans-serif;
+}
 
+header {
+    height: 90vh;
+    background: url(https://wallpapershome.com/images/pages/pic_h/12586.jpg) 
+                center / cover no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10vw;
+}
+
+p {
+    max-width: 60ch;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: clamp(2.5rem, 10vw, 12rem);
+    text-shadow: 0 0 20px rgb(118, 158, 154);
 }
